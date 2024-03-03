@@ -1,0 +1,30 @@
+.circleIconContainer {
+    margin: 8px;
+    min-width: 50px;
+    padding: 8px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circleIconContainer:hover {
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    font-size: 32px;
+}
+
+.text {
+    margin: 8px 0px;
+    font-weight: 500;
+}

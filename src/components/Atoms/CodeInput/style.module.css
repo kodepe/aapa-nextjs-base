@@ -1,0 +1,11 @@
+/* Ocultar el punto que se muestra en los campos de contraseña */
+.inputPasswordStyle {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 8px;
+    align-self: center;
+    padding-bottom: 6px;
+}

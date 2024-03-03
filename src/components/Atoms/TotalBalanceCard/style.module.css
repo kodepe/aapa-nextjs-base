@@ -1,0 +1,45 @@
+.totalBalanceCardContainer {
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+}
+
+.totalBalanceHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: 8px 8px 8px 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.value {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.moneyType {
+    margin: 0 8px;
+    font-size: 20px;
+}

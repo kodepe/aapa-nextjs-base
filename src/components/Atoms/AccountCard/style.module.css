@@ -1,0 +1,49 @@
+.accountCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #000;
+    border-radius: 8px 16px 6px 6px;
+    padding: 16px;
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.75);
+    margin: 16px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.moneyValue {
+    font-size: 20px;
+    margin: 0px 4px;
+    font-weight: 700;
+}
+
+.moneyValueType {
+    font-size: 16px;
+    font-weight: 600;
+}

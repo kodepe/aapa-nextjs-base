@@ -1,0 +1,85 @@
+.totalBalanceCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 340px;
+    border: 1px solid #000;
+    border-radius: 8px 16px 6px 6px;
+    padding: 16px;
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.75);
+    margin: 16px;
+}
+
+.totalBalanceHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.totalBalanceHeaderIconTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.statusIcon {
+    font-size: 24px;
+}
+
+.icon {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: 8px 8px 8px 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.moneyType {
+    margin: 0 8px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.percentValue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+.percent {
+    font-weight: bold;
+}
+
+.percentCode {
+    font-weight: 400;
+}
