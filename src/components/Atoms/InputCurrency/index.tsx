@@ -23,21 +23,6 @@ interface InputCurrencyProps {
   value: string;
 }
 
-const customStyles = {
-  control: (provided, state) => ({
-    ...provided,
-    border: "none",
-    right: 0,
-  }),
-  singleValue: (provided, state) => ({
-    ...provided,
-    backgroundColor: "#000 ",
-    color: "#007bff",
-    fontWeight: "bold",
-    display: "flex",
-  }),
-};
-
 export const InputCurrency = ({
   label,
   caption,
