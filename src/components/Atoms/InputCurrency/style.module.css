@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputCurrencyContainer {
+    border: 1px solid #00000033;
+    outline: none;
+    transition: all ease 500ms;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0px 40px 4px 12px;
+}
+
+.onBlur {
+    transition: all ease 500ms;
+    font-weight: bold;
+    border: 1px solid #000
+}
+
+.onFocus {
+    font-weight: bold;
+    transition: all ease 500ms;
+    border: 1px solid #000
+}
+
+.hasValue {
+    transition: all ease 500ms;
+    border: 1px solid #000
+}
+
+.rightIcon {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    font-size: 24px;
+}
+
+.selectContainer {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
